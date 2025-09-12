@@ -1,17 +1,11 @@
 # 1. Instalação da biblioteca pandasql
-# O '!' no início executa o comando como se estivesse no terminal do Linux.
 !pip install pandasql
-
-# ---
 
 # 2. Importação das bibliotecas necessárias
 import pandas as pd
 from pandasql import sqldf
 
-# ---
-
 # 3. Criação de um DataFrame de exemplo
-# (Em seu caso, você usaria pd.read_csv para carregar sua base de dados real)
 data = {
     'id': [1, 2, 3, 4, 5, 6],
     'segmento': ['Saúde', 'Finanças', 'Varejo', 'Saúde', 'Tecnologia', 'Finanças'],
@@ -25,11 +19,8 @@ df_empresas = pd.DataFrame(data)
 print("DataFrame Original:")
 print(df_empresas)
 
-# ---
-
 # 4. Execução de uma consulta SQL usando a função sqldf()
-# Hipótese 2.1: A conversão de clientes CROSS_SELL é mais alta.
-# Vamos verificar quantas empresas de cada canal de venda converteram para o plano pago.
+# Teste que evidencia o formnato que devemos seguir daqui em diante:
 
 query = """
     SELECT
@@ -49,6 +40,3 @@ resultado_sql = sqldf(query, locals())
 # Exibindo o resultado da consulta
 print("\nResultado da consulta SQL:")
 print(resultado_sql)
-
-# Você também pode salvar o resultado em um novo arquivo CSV, se precisar
-# resultado_sql.to_csv('resultado_analise.csv', index=False)
