@@ -14,4 +14,9 @@ b) Hipóteses relacionadas à retenção: As notas de satisfação estão ligada
 c) Hipóteses cross (retenção vs conversão): A combinação de um free trial mais longo (30 dias) e um cliente CROSS_SELL resulta na maior taxa de conversão?; Clientes com notas de NPS altas, que já utilizam os produtos Benefícios e Despesas e que são CROSS_SELL têm a maior taxa de retenção?; O preço da assinatura tem um impacto diferente na retenção dependendo do segmento de atuação da empresa
 
 ## Stack: 
-Google Colab com Python e SQL. Utilizei a biblioteca pandasql - e importei a sqldf - para trazer um ambiente de gestão de banco de dados para o colab. A engine utilizada foi, portanto, SQLite.
+Google Colab com Python, SQL e Looker Data Studio como Power BI. Utilizei a biblioteca pandasql - e importei a sqldf - para trazer um ambiente de gestão de banco de dados para o colab. A engine utilizada foi, portanto, SQLite.
+
+## Links Úteis:
+[Dashboard DataStudio](https://lookerstudio.google.com/reporting/8138d00a-be40-472c-a290-878798de3606)
+[Base, Gráficos e Algumas análises em Pivot Table no Google Sheets](https://docs.google.com/spreadsheets/d/1bWeUJyin80KMuFm2RkRqMHn3hBR70OwbBoI7GXYU4rM/edit?usp=sharing)
+[Desenvolvimento textual das hipóteses e conclusões](https://docs.google.com/document/d/1QZ7EN4Vpk1kf9XcGZdEWWZbQujDEdJNil98-OYJPBuA/edit?tab=t.0)
