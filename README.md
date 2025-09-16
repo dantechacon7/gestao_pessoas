@@ -18,5 +18,7 @@ Google Colab com Python, SQL e Looker Data Studio como Power BI. Utilizei a bibl
 
 ## Links Úteis:
 [Dashboard DataStudio](https://lookerstudio.google.com/reporting/8138d00a-be40-472c-a290-878798de3606)
+<br></br>
 [Base, Gráficos e Algumas análises em Pivot Table no Google Sheets](https://docs.google.com/spreadsheets/d/1bWeUJyin80KMuFm2RkRqMHn3hBR70OwbBoI7GXYU4rM/edit?usp=sharing)
+<br></br>
 [Desenvolvimento textual das hipóteses e conclusões](https://docs.google.com/document/d/1QZ7EN4Vpk1kf9XcGZdEWWZbQujDEdJNil98-OYJPBuA/edit?tab=t.0)
